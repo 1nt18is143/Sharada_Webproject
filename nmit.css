@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://ravikc.github.io/NMIT/images/mainBuilding.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1.a {
+    text-align: center;
+}
+
+h1.b {
+    text-align: right;
+    color: blanchedalmond;
+}
+
+h2.c {
+    text-align: center;
+    color: blue;
+    text-shadow: aqua;
+}
+
+.btn-group button {
+    border: 1px solid green;
+    color: black;
+    padding: 20px 70px;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 10px;
+    position: center;
+    left: 50%;
+    top: 50%;
+    border-radius: 30px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn-group button:hover {
+    background-color: rgb(47, 231, 255);
+}
+
+.abc button {
+    background-color: transparent;
+    border: 4px solid rgb(172, 185, 175);
+    color: white;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    padding: 40px 20px;
+    transition: all 2s;
+    border-radius: 40%;
+    width: 20%;
+    font-size: larger;
+}
+
+.abc button:hover {
+    background-color: #f0f325;
+}
+
+.krisha button {
+    border-color: black;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    right: 45%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+}
+
+.krisha button:hover {
+    background-color: chartreuse;
+}
